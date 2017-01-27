@@ -22,13 +22,7 @@ describe('MyComponentComponent', () => {
     });
 
     it('should create', () => {
-
-        spyOn(component, 'ngOnInit')
-        .and.returnValue();
-
         fixture.detectChanges();
         expect(component).toBeTruthy();
-
-        expect(component.ngOnInit).toHaveBeenCalledWith('ABC');
     });
 });

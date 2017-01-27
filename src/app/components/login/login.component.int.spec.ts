@@ -178,7 +178,7 @@ describe('Component: Login', () => {
             });
         }));
 
-        fit('form should navigate to forgot password when link is clicked', async(() => {
+        it('form should navigate to forgot password when link is clicked', async(() => {
             // arrange
             spyOn(router, 'navigateByUrl');
 
